@@ -1,8 +1,6 @@
-const auth = function(req, res){
-    // 
-    console.log(req);
 
-    res.send("ok");
+const auth = function(req, res){
+
 }
 
 module.exports = {
