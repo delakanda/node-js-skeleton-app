@@ -1,7 +1,7 @@
 const express = require("express");
 const http = require("http");
-const routes = require('./routes/index');
-const { HTTP_PORT } = require('./config.json');
+const routes = require('./app/web/routes/index');
+const { HTTP_PORT } = require('./config/app.json');
 require('dotenv').config();
 
 const app = express();

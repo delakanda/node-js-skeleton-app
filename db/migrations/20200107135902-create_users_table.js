@@ -1,7 +1,7 @@
 'use strict';
 
-const DbConst = require('./../../constants/db');
-const userSchema = require('./../../models/schemas/userSchema');
+const DbConst = require('../../app/constants/db');
+const userSchema = require('./../../app/models/schemas/userSchema');
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
