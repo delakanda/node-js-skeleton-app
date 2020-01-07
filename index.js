@@ -2,6 +2,7 @@ const express = require("express");
 const http = require("http");
 const routes = require('./routes/index');
 const { HTTP_PORT } = require('./config.json');
+require('dotenv').config();
 
 const app = express();
 

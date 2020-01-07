@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 
-const DB_NAME = 'xxx';
-const DB_USERNAME = 'xxx';
-const DB_PASS = 'xxx';
+const DB_NAME = process.env.APP_DB_NAME;
+const DB_USERNAME = process.env.APP_DB_USERNAME;
+const DB_PASS = process.env.APP_DB_PASSWORD;
 
 const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASS, {
     host: '127.0.0.1',
