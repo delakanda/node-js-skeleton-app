@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "seq:migrate": "npx sequelize db:migrate",
+    "seq:rollback": "npx sequelize db:migrate:undo"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
